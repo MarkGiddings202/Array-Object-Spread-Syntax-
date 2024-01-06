@@ -16,3 +16,16 @@
 
     *Explain this behaviour
 */
+
+const views = [
+    [5, 10, 20],
+    [10, 20, 30],
+  ];
+  
+  const viewsCopy = [...views];
+  viewsCopy[1].push(40);
+  viewsCopy[0].pop();
+  viewsCopy.push([100, 200]);
+  
+  console.log(views);
+  console.log(viewsCopy);

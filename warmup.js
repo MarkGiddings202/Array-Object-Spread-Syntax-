@@ -8,3 +8,14 @@
 
     3. Print out both "pointsCopy" and "points"
 */
+
+let points =  [10, 15, 20, 30, 5]
+
+let pointsCopy = [...points]
+
+pointsCopy.push(50)
+pointsCopy.push(70)
+
+
+console.log(points)
+console.log(pointsCopy)
