@@ -18,3 +18,12 @@
        Print out both "animal" and "koala" again and observe the change.
        Does this make sense?
 */
+
+let animal = {
+  name: "Koala",
+  kingdom: "Australia",
+  cute: true,
+  friends: [{ name: "Kangaroo", kingdom: "Australia" }],
+};
+
+let koala = [...animal, [{"Tail":false}] ]
